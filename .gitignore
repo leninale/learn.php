@@ -1,0 +1,8 @@
+.idea
+test1.php
+testfile.php
+composer.json
+composer.lock
+vendor/
+.phpunit.result.cache
+phpunit.phar

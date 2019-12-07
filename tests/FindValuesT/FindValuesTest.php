@@ -43,11 +43,11 @@ class FindValuesTest extends TestCase
    }
 
 
- /*  public function testFindValuesContains()
+  public function testFindValuesContains()
    {
-       $array = [0,2,-1,3];
+       $array = ['b', 'c', 'a'];
        $this->assertContainsOnly('integer', $this->findMissingValues->searchLostElems($array));
    }
-*/
+
 
 }

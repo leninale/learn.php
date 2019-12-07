@@ -1,9 +1,12 @@
 <?php
+
+namespace App\FindValues;
+
 class FindMissingValues
 {
     function searchLostElems(array $array): array
     {
-        $returnArray = [];
+        $returnArray = null; //Для теста
         for ($i = min($array); $i < max($array); $i++) {
             if (!in_array($i, $array)) {
                 $returnArray[] = $i;
@@ -20,4 +23,3 @@ $array3 = [1,2,3]; // []
 print_r($findMissingValues ->searchLostElems($array1));
 print_r($findMissingValues ->searchLostElems($array2));
 print_r($findMissingValues ->searchLostElems($array3));*/
-?>

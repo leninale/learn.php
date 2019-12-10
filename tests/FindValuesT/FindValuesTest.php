@@ -1,7 +1,7 @@
 <?php
 namespace Test\FindValuesT;
 
-use phpDocumentor\Reflection\Types\Integer;
+use App\FindValues\FindMissingValues;
 use PHPUnit\Framework\TestCase;
 
 class FindValuesTest extends TestCase
@@ -9,7 +9,7 @@ class FindValuesTest extends TestCase
     private $findMissingValues;
     protected function setUp(): void
     {
-        $this->findMissingValues = new \App\FindValues\FindMissingValues();
+        $this->findMissingValues = new FindMissingValues();
     }
     protected function tearDown(): void
     {
